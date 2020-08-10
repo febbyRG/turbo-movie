@@ -7,6 +7,8 @@ target 'Turbo Movie' do
 
   # Pods for Turbo Movie
   pod 'Alamofire', '~> 5.2'
+  pod 'SDWebImage', '~> 5.0'
+  pod 'TPKeyboardAvoiding', '~> 1.3'
 
   target 'Turbo MovieTests' do
     inherit! :search_paths

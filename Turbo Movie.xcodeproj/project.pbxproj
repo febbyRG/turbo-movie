@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,15 @@
 		2390EC8924E1708400607910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2390EC8724E1708400607910 /* LaunchScreen.storyboard */; };
 		2390EC9424E1708400607910 /* Turbo_MovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2390EC9324E1708400607910 /* Turbo_MovieTests.swift */; };
 		2390EC9F24E1708400607910 /* Turbo_MovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2390EC9E24E1708400607910 /* Turbo_MovieUITests.swift */; };
+		2390ECB224E177AF00607910 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2390ECB124E177AF00607910 /* NetworkManager.swift */; };
+		2390ECB424E1785900607910 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2390ECB324E1785900607910 /* Constants.swift */; };
+		2390ECB624E17B1000607910 /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2390ECB524E17B1000607910 /* WelcomViewController.swift */; };
+		2390ECB824E17B2000607910 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2390ECB724E17B2000607910 /* LoginViewController.swift */; };
+		2390ECBC24E17B7500607910 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2390ECBB24E17B7500607910 /* MovieTableViewController.swift */; };
+		2390ECBE24E1823400607910 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2390ECBD24E1823400607910 /* Movie.swift */; };
+		2390ECC024E18F1400607910 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2390ECBF24E18F1400607910 /* MovieTableViewCell.swift */; };
+		2390ECC224E19C3400607910 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2390ECC124E19C3400607910 /* CustomButton.swift */; };
+		2390ECC424E19D8E00607910 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2390ECC324E19D8E00607910 /* CustomView.swift */; };
 		7B172E6BB4F0BD93C313150C /* Pods_Turbo_Movie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373D82CA70EF9C606FBCF627 /* Pods_Turbo_Movie.framework */; };
 		AAACDDF65490707F7BF66209 /* Pods_Turbo_Movie_Turbo_MovieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3207CC1ADD1B42EB168AE98F /* Pods_Turbo_Movie_Turbo_MovieUITests.framework */; };
 		AF45C7EDA06A32DA92B6243D /* Pods_Turbo_MovieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269ADD4F09FECE2D09F94A8F /* Pods_Turbo_MovieTests.framework */; };
@@ -55,6 +64,15 @@
 		2390EC9A24E1708400607910 /* Turbo MovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Turbo MovieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2390EC9E24E1708400607910 /* Turbo_MovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turbo_MovieUITests.swift; sourceTree = "<group>"; };
 		2390ECA024E1708400607910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2390ECB124E177AF00607910 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2390ECB324E1785900607910 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2390ECB524E17B1000607910 /* WelcomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
+		2390ECB724E17B2000607910 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2390ECBB24E17B7500607910 /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
+		2390ECBD24E1823400607910 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		2390ECBF24E18F1400607910 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		2390ECC124E19C3400607910 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		2390ECC324E19D8E00607910 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		269ADD4F09FECE2D09F94A8F /* Pods_Turbo_MovieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Turbo_MovieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		293CD57D5253ABA132C39F6D /* Pods-Turbo Movie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Turbo Movie.debug.xcconfig"; path = "Target Support Files/Pods-Turbo Movie/Pods-Turbo Movie.debug.xcconfig"; sourceTree = "<group>"; };
 		3207CC1ADD1B42EB168AE98F /* Pods_Turbo_Movie_Turbo_MovieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Turbo_Movie_Turbo_MovieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,14 +136,14 @@
 		2390EC7824E1708400607910 /* Turbo Movie */ = {
 			isa = PBXGroup;
 			children = (
+				2390ECB024E1731D00607910 /* Modules */,
+				2390ECAF24E1730800607910 /* Assets */,
+				2390ECAE24E172F500607910 /* Controllers */,
+				2390ECAD24E172EF00607910 /* Views */,
+				2390ECAC24E172E300607910 /* Models */,
 				2390EC7924E1708400607910 /* AppDelegate.swift */,
 				2390EC7B24E1708400607910 /* SceneDelegate.swift */,
-				2390EC7D24E1708400607910 /* ViewController.swift */,
-				2390EC7F24E1708400607910 /* Main.storyboard */,
-				2390EC8524E1708400607910 /* Assets.xcassets */,
-				2390EC8724E1708400607910 /* LaunchScreen.storyboard */,
 				2390EC8A24E1708400607910 /* Info.plist */,
-				2390EC8224E1708400607910 /* Turbo_Movie.xcdatamodeld */,
 			);
 			path = "Turbo Movie";
 			sourceTree = "<group>";
@@ -148,6 +166,55 @@
 			path = "Turbo MovieUITests";
 			sourceTree = "<group>";
 		};
+		2390ECAC24E172E300607910 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2390ECBD24E1823400607910 /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2390ECAD24E172EF00607910 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2390EC7F24E1708400607910 /* Main.storyboard */,
+				2390EC8724E1708400607910 /* LaunchScreen.storyboard */,
+				2390ECBF24E18F1400607910 /* MovieTableViewCell.swift */,
+				2390ECC124E19C3400607910 /* CustomButton.swift */,
+				2390ECC324E19D8E00607910 /* CustomView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2390ECAE24E172F500607910 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2390EC7D24E1708400607910 /* ViewController.swift */,
+				2390ECB524E17B1000607910 /* WelcomViewController.swift */,
+				2390ECB724E17B2000607910 /* LoginViewController.swift */,
+				2390ECBB24E17B7500607910 /* MovieTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2390ECAF24E1730800607910 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2390EC8524E1708400607910 /* Assets.xcassets */,
+				2390EC8224E1708400607910 /* Turbo_Movie.xcdatamodeld */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2390ECB024E1731D00607910 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2390ECB124E177AF00607910 /* NetworkManager.swift */,
+				2390ECB324E1785900607910 /* Constants.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
 		7458E322B9E7FE7175568BAE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,7 +235,6 @@
 				4BE4A3D04E2B541DC8292F9A /* Pods-Turbo MovieTests.debug.xcconfig */,
 				73D3ED333EB7B01BD92D1E62 /* Pods-Turbo MovieTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -413,8 +479,17 @@
 			files = (
 				2390EC7E24E1708400607910 /* ViewController.swift in Sources */,
 				2390EC7A24E1708400607910 /* AppDelegate.swift in Sources */,
+				2390ECB224E177AF00607910 /* NetworkManager.swift in Sources */,
 				2390EC7C24E1708400607910 /* SceneDelegate.swift in Sources */,
+				2390ECBE24E1823400607910 /* Movie.swift in Sources */,
+				2390ECB824E17B2000607910 /* LoginViewController.swift in Sources */,
+				2390ECC424E19D8E00607910 /* CustomView.swift in Sources */,
+				2390ECBC24E17B7500607910 /* MovieTableViewController.swift in Sources */,
 				2390EC8424E1708400607910 /* Turbo_Movie.xcdatamodeld in Sources */,
+				2390ECC224E19C3400607910 /* CustomButton.swift in Sources */,
+				2390ECB424E1785900607910 /* Constants.swift in Sources */,
+				2390ECC024E18F1400607910 /* MovieTableViewCell.swift in Sources */,
+				2390ECB624E17B1000607910 /* WelcomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
